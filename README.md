@@ -50,6 +50,7 @@ The script is hardcoded with strict reproducibility constraints (Deterministic S
 
 * `loss_history.png` & `acc_history.png` — High-resolution validation curves mapping convergence stability across training epochs.
 ![Workflow](Images/acc_history.jpg)
+![Workflow](Images/loss_history.jpg)
 * `confusion_matrix_test.png` — A clean, normalized test matrix utilizing standardized short labels (`N`, `HM`, `VM`, `IMB`, `BF`, `CF`, `ORF`) to track true positive rates.
 ![Workflow](Images/confusion_matrix_test.jpg)
 * `roc_test_debug.png` — Multi-class Receiver Operating Characteristic curves displaying individual area-under-curve (AUC) performance along with Micro and Macro averages.
