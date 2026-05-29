@@ -12,7 +12,7 @@ The framework utilizes an advanced sequence of deep layers optimized for cross-a
 
 ![Workflow](Images/Workflow_3.jpg)
 
-### 1. Multi-Channel Signal Preprocessing & Leakage Prevention
+### 1. Multi-Channel Signal Preprocessing 
 * **Tri-Axial Data Processing:** The network simultaneously ingests three synchronized acceleration channels (representing Vertical, Horizontal, and Axial planes) to capture complete spatial vibration dynamics.
 
 * **Standardization:** Segments undergo continuous z-score normalization ($X - \mu / \sigma$) per file to isolate physical transient phenomena from absolute signal power variations.
