@@ -49,9 +49,12 @@ The deep network is trained to classify the current structural state of the rota
 The script is hardcoded with strict reproducibility constraints (Deterministic Seeds) and outputs full diagnostic plots into the root folder upon completing a training sequence:
 
 * `loss_history.png` & `acc_history.png` — High-resolution validation curves mapping convergence stability across training epochs.
+![Workflow](Images/acc_history.jpg)
 * `confusion_matrix_test.png` — A clean, normalized test matrix utilizing standardized short labels (`N`, `HM`, `VM`, `IMB`, `BF`, `CF`, `ORF`) to track true positive rates.
+![Workflow](Images/confusion_matrix_test.jpg)
 * `roc_test_debug.png` — Multi-class Receiver Operating Characteristic curves displaying individual area-under-curve (AUC) performance along with Micro and Macro averages.
+![Workflow](Images/roc_test_debug.jpg)
 * `tsne_test_ctx.png` — 2D t-Distributed Stochastic Neighbor Embedding visualization verifying cluster separation of the deep attention context vectors (`ctx`).
-* `prob_diagnostics_test.txt` — Plain-text probability logs evaluating minimum, maximum, mean, and unique value outputs per true positive target class.
+![Workflow](Images/tsne_test_ctx.jpg)
 
 ---
