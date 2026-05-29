@@ -39,7 +39,7 @@ The deep network is trained to classify the current structural state of the rota
 3.  **Vertical Misalignment (VM):** Geometric axis offset along the vertical plane.
 4.  **Rotor Unbalance (IMB):** Mass eccentricity creating asynchronous rotational forces.
 5.  **Bearing Fault (BF):** General rolling-element structural degradation.
-6.  **Cocked Flush Fault (CF):** Complex misaligned/skewed bearing race mounting issue.
+6.  **Cage Fault (CF):**  bearing cage defect.
 7.  **Outer-Race Fault (ORF):** Localized high-frequency impact defects on the stationary outer race ring.
 
 ---
